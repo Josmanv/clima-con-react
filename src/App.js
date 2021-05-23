@@ -30,7 +30,7 @@ function App() {
         setResultado(resultado);
         guardarConsultar(false);
 
-        //Detectar que exiata la ciudad
+        //Detectar que exista la ciudad
         if(resultado.cod === "404"){
           setError(true);
         }else{
